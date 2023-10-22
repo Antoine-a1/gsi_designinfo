@@ -5,11 +5,10 @@ carousel {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
-
 .carousel img {
   flex: 0 0 auto;
-  width: 75%;
-  height: 50px;
+  width: 90%;
+  height: 100px;
   margin-right: 10px;
   scroll-snap-align: center;
 }
