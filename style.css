@@ -1,16 +1,16 @@
-carousel {
+.carousel {
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
+
 .carousel img {
   flex: 0 0 auto;
-  width: 90%;
+  width: 100px;
   height: 100px;
-  margin-right: 10px;
+  margin-right: 30px;
   scroll-snap-align: center;
 }
-
 
