@@ -1,3 +1,36 @@
+/* Style de base pour le menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style pour les éléments du menu */
+nav ul li {
+  display: inline-block;
+  background-color: #3498DB;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+
+/* Style pour les sous-menus, cachés par défaut */
+nav ul li ul {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+/* Style pour les éléments des sous-menus */
+nav ul li ul li {
+  display: block;
+}
+
+/* Affichage des sous-menus au survol */
+nav ul li:hover ul {
+  display: block;
+}
+
 .carousel {
   display: flex;
   overflow: scroll;
